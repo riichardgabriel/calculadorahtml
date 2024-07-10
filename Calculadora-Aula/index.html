@@ -33,7 +33,10 @@
         <input type="number" id="segundoNumero"  class="tamanho" placeholder="Digite aqui o segundo número"><br><br>
 
 
-        <button >Calcular</button>
+        <button onClick="calcular(document.querySelector('#primeiroNumero').value,
+                                    document.querySelector('#segundoNumero').value
+                                                                    )" >Calcular</button>
+    
     </div>
     <hr>
     <div class="resultado" >
@@ -46,7 +49,7 @@
     </div>
     <hr>
     <div>
-       
+       <script src="calc.js"></script>
     </form>
 </div>
 </body>
